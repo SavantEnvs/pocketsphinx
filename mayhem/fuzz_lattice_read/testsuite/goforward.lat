@@ -1,0 +1,28 @@
+# getcwd: /tmp
+# -logbase 1.000100e+00
+#
+Frames 30
+#
+Nodes 7 (NODEID WORD STARTFRAME FIRST-ENDFRAME LAST-ENDFRAME)
+0 </s> 28 29 29
+1 meters 20 27 27
+2 ten 14 19 19
+3 forward 6 13 13
+4 go 2 5 5
+5 <s> 0 1 1
+6 tin 14 19 19
+#
+Initial 5
+Final 0
+#
+BestSegAscr 0 (NODEID ENDFRAME ASCORE)
+#
+Edges (FROM-NODEID TO-NODEID ASCORE)
+1 0 -1000
+2 1 -2000
+6 1 -3000
+3 2 -1500
+3 6 -2500
+4 3 -1200
+5 4 -900
+End

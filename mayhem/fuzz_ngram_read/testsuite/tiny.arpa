@@ -1,0 +1,23 @@
+\data\
+ngram 1=5
+ngram 2=4
+ngram 3=2
+
+\1-grams:
+-1.0000 <s> -0.3010
+-1.0000 </s> 0.0000
+-1.2000 go -0.3010
+-1.2000 forward -0.3010
+-1.2000 ten -0.3010
+
+\2-grams:
+-0.3010 <s> go -0.1000
+-0.3010 go forward -0.1000
+-0.3010 forward ten -0.1000
+-0.3010 ten </s> 0.0000
+
+\3-grams:
+-0.1000 <s> go forward
+-0.1000 go forward ten
+
+\end\

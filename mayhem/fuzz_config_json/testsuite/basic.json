@@ -1,0 +1,1 @@
+hmm: "model/en-us/en-us", lm: "x.lm.bin", nfft: 512, lw: 6.5, fwdtree: true, samprate: 16000

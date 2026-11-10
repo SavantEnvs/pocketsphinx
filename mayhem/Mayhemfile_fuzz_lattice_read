@@ -1,0 +1,9 @@
+project: savantenvs/pocketsphinx
+target: fuzz_lattice_read
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_lattice_read/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_lattice_read
+    libfuzzer: true
+    timeout: 5

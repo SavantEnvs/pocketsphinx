@@ -1,0 +1,9 @@
+project: savantenvs/pocketsphinx
+target: fuzz_config_json
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_config_json/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_config_json
+    libfuzzer: true
+    timeout: 5
